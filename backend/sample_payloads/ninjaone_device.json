@@ -1,0 +1,16 @@
+{
+  "event_type": "device_alert",
+  "device": {
+    "id": "ninja-device-7788",
+    "name": "PROD-WS-12",
+    "organization": "Contoso",
+    "os": "Windows 11 Pro",
+    "status": "online",
+    "last_seen": "2026-11-02T10:10:00Z"
+  },
+  "alert": {
+    "level": "warning",
+    "message": "Disk space below 10% on PROD-WS-12",
+    "raised_at": "2026-11-02T10:10:05Z"
+  }
+}

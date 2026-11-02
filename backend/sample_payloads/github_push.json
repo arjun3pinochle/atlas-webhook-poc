@@ -1,0 +1,38 @@
+{
+  "ref": "refs/heads/main",
+  "before": "9049f1265b7d61be4a8904a9a27120d2064dab3b",
+  "after": "0000000000000000000000000000000000000000",
+  "repository": {
+    "id": 123456789,
+    "name": "atlas-demo",
+    "full_name": "example/atlas-demo",
+    "private": false,
+    "html_url": "https://github.com/example/atlas-demo",
+    "default_branch": "main"
+  },
+  "pusher": {
+    "name": "example",
+    "email": "example@users.noreply.github.com"
+  },
+  "sender": {
+    "login": "example",
+    "id": 1,
+    "html_url": "https://github.com/example"
+  },
+  "commits": [
+    {
+      "id": "0000000000000000000000000000000000000000",
+      "message": "Update README with webhook setup",
+      "timestamp": "2026-11-02T10:25:00Z",
+      "url": "https://github.com/example/atlas-demo/commit/0000000000000000000000000000000000000000",
+      "author": {
+        "name": "Example User",
+        "email": "example@example.com"
+      }
+    }
+  ],
+  "head_commit": {
+    "id": "0000000000000000000000000000000000000000",
+    "message": "Update README with webhook setup"
+  }
+}

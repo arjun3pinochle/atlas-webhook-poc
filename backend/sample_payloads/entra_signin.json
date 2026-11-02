@@ -1,0 +1,23 @@
+{
+  "id": "signin-event-001",
+  "createdAtDateTime": "2026-11-02T10:15:00Z",
+  "type": "signin",
+  "user": {
+    "id": "11111111-2222-3333-4444-555555555555",
+    "displayName": "Jane Doe",
+    "userPrincipalName": "jane.doe@contoso.com"
+  },
+  "appDisplayName": "Microsoft 365",
+  "clientAppUsed": "Browser",
+  "status": {
+    "errorCode": 0,
+    "failureReason": "None"
+  },
+  "ipAddress": "203.0.113.42",
+  "location": {
+    "city": "Seattle",
+    "state": "Washington",
+    "countryOrRegion": "US"
+  },
+  "riskLevel": "low"
+}

@@ -1,0 +1,18 @@
+{
+  "event": {
+    "EventId": "abc123def456-0001-0002",
+    "EventType": "DetectionSummaryEvent",
+    "DetectionStartTime": "2026-11-02T10:20:00Z",
+    "DetectionEndTime": "2026-11-02T10:20:05Z",
+    "SeverityName": "High",
+    "Severity": 70,
+    "FalconHostId": "host-98765",
+    "CustomerID": "cust-001",
+    "DetectName": "Suspicious PowerShell Execution",
+    "DetectDescription": "A PowerShell process executed encoded commands.",
+    "ProcessStartTime": "2026-11-02T10:19:55Z",
+    "CommandLine": "powershell.exe -enc <base64>",
+    "UserName": "CORP\\\\jdoe",
+    "ComputerName": "WORKSTATION-01"
+  }
+}
