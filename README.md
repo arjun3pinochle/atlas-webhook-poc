@@ -266,4 +266,4 @@ The backend must be publicly reachable for GitHub to deliver events.
   empty state until real or test events arrive.
 - Statistics are always derived from real backend data.
 - Only GitHub is a real integration for this POC; the other providers are
-  simulated via the test script and curl commands.
+  simulated via the test script and curl commands.checking
