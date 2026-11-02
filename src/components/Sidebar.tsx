@@ -24,7 +24,7 @@ const NAV: { key: PageKey; label: string; icon: typeof LayoutDashboard }[] = [
 
 export function Sidebar({ active, onNavigate }: SidebarProps) {
   return (
-    <aside className="flex h-full w-60 shrink-0 flex-col border-r border-slate-800 bg-slate-900 text-slate-300">
+    <aside className="flex w-60 shrink-0 flex-col border-r border-slate-800 bg-slate-900 text-slate-300">
       <div className="flex items-center gap-2.5 px-5 py-5">
         <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-sky-500 to-cyan-400 shadow-md">
           <ShieldCheck className="h-5 w-5 text-slate-900" />
