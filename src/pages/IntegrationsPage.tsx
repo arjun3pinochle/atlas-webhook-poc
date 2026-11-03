@@ -156,7 +156,7 @@ export function IntegrationsPage({ backendBase }: IntegrationsPageProps) {
         ))}
       </div>
 
-      <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+      {/* <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
         <div className="flex items-center gap-2">
           <Terminal className="h-5 w-5 text-slate-600" />
           <h3 className="text-sm font-semibold text-slate-800">
@@ -180,9 +180,9 @@ python3 test_webhooks.py --only crowdstrike,tenable`}
           Or use curl directly against{" "}
           <code className="font-mono text-xs text-slate-700">{base}</code>.
         </p>
-      </div>
+      </div> */}
 
-      <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+      {/* <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
         <div className="flex items-center gap-2">
           <Plug className="h-5 w-5 text-slate-600" />
           <h3 className="text-sm font-semibold text-slate-800">
@@ -204,7 +204,7 @@ python3 test_webhooks.py --only crowdstrike,tenable`}
           <code className="ml-1.5 font-mono text-slate-600">ngrok http 8000</code>
           and use the ngrok URL as the Payload URL.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
