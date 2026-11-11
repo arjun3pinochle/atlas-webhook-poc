@@ -126,4 +126,4 @@ curl http://localhost:8000/events
 8. Deploy and verify `/health`.
 
 Render free services spin down after inactivity and take a few seconds to wake
-up. Events are lost on restart/redeploy because storage is in-memory.
+up. Events are lost on restart/redeploy because storage is in-memory. gokul
